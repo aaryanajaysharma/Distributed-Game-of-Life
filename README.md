@@ -52,6 +52,6 @@ What I found was the following:
 
 - The program errs on an arbitrarily large inputs when run on more than 1 process.
   
-  - This error is partial as not all rows are calculated incorrectly, only a few rows (usually those of the form $8n+1$ $\&$ $8n+2$ or the likes). This suggests that either 1) there is a problem with how the results are being gathered or 2) there is a certain process which is doing incorrect computation
+  - This error is partial as not all rows are calculated incorrectly, only a few rows (usually those of the form $8n+1$ $, $ $8n+2$ or the likes). This suggests that either 1) there is a problem with how the results are being gathered or 2) there is a certain process which is doing incorrect computation
   
   - This error possibly arises from the improper handling of boundary conditions.
